@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./assets/style1.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>John Doe</h1>
+            <div class="contact-info">
+                <span><i class="fas fa-map-marker-alt"></i> Your Location</span>
+                <span><i class="far fa-envelope"></i> <a href="mailto:youremail@yourdomain.com">youremail@yourdomain.com</a></span>
+                <span><i class="fas fa-phone"></i> <a href="tel:+90-541-999-99-99">+90 541 999 99 99</a></span>
+                <span><i class="fas fa-link"></i> <a href="https://yourwebsite.com/">yourwebsite.com</a></span>
+                <span><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/yourusername">yourusername</a></span>
+                <span><i class="fab fa-github"></i> <a href="https://github.com/yourusername">yourusername</a></span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Welcome To RenderCV!</h2>
+            <p><a href="https://github.com/sinaatalay/rendercv">RenderCV</a> is a LaTeX CV/resume framework. It allows you to create a high-quality CV as a PDF from a YAML file with <strong>full Markdown syntax support</strong> and <strong>complete control over the LaTeX code</strong>.</p>
+            <p>A substantial part of the content is taken from <a href="https://www.careercup.com/resume">here</a>, where a <em>clean and tidy CV</em> pattern is proposed by <strong>Gayle L. McDowell</strong>.</p>
+        </section>
+
+        <section>
+            <h2>Quick Guide</h2>
+            <ul>
+                <li>Each section title is arbitrary, and each section contains a list of entries.</li>
+                <li>There are seven different entry types: <em>BulletEntry, TextEntry, EducationEntry, ExperienceEntry, NormalEntry, PublicationEntry</em>, and <em>OneLineEntry</em>.</li>
+                <li>Select a section title, pick an entry type, and start writing your section!</li>
+                <li><a href="https://docs.rendercv.com/user_guide/">Here</a>, you can find a comprehensive user guide.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="entry">
+                <div class="three-col">
+                    <div><strong>BS</strong></div>
+                    <div>Sept. 2000 to May 2005</div>
+                    <div>
+                        <strong>University of Pennsylvania</strong>, Computer Science
+                        <ul>
+                            <li>GPA: 3.9/4.0 (<a href="https://example.com">Transcript</a>)</li>
+                            <li><strong>Coursework:</strong> Software Foundations, Computer Architecture, Algorithms, Artificial Intelligence, Comparison of Learning Algorithms, Computational Theory.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <div class="entry">
+                <div class="two-col">
+                    <div>
+                        <strong>Apple Computer</strong>, Software Engineer, Intern
+                        <ul>
+                            <li>Reduced time to render the user's buddy list by 75% by implementing a prediction algorithm.</li>
+                            <li>Implemented iChat integration with OS X Spotlight Search by creating a tool that extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.</li>
+                            <li>Redesigned chat file format and implemented backward compatibility for search.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        CA, USA<br>
+                        June 2004 to Aug. 2004<br>
+                        2 months
+                    </div>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="two-col">
+                    <div>
+                        <strong>Microsoft Corporation</strong>, Lead Student Ambassador
+                        <ul>
+                            <li>Promoted to Lead Student Ambassador in the Fall of 2004, supervised 10 - 15 Student Ambassadors.</li>
+                            <li>Created and taught a computer science course, CSE 099: Software Design and Development.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        WA, USA<br>
+                        Sept. 2003 to Apr. 2005<br>
+                        1 year 7 months
+                    </div>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="two-col">
+                    <div>
+                        <strong>University of Pennsylvania</strong>, Head Teaching Assistant
+                        <ul>
+                            <li>Implemented a user interface for the VS open file switcher (ctrl-tab) and extended it to tool windows.</li>
+                            <li>Created a service to provide gradient across VS and VS add-ins. Optimized service via caching.</li>
+                            <li>Programmer Productivity Research Center (Summers 2001, 2002)</li>
+                            <li>Built app to compute the similarity of all methods in a code base, reduced time from O(n^2) to O(n log n).</li>
+                            <li>Created a test case generation tool that creates random XML docs from XML Schema.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        PA, USA<br>
+                        Oct. 2001 to May 2005<br>
+                        3 years 7 months
+                    </div>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="two-col">
+                    <div>
+                        <strong>Microsoft Corporation</strong>, Software Design Engineer, Intern
+                        <ul>
+                            <li>Promoted to Lead Student Ambassador in the Fall of 2004, supervised 10 - 15 Student Ambassadors.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        WA, USA<br>
+                        June 2003 to Aug. 2003<br>
+                        2 months
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Publications</h2>
+            <div class="entry">
+                <div class="two-col">
+                    <div>
+                        <strong>Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis of No-Insulation Coils</strong><br>
+                        Albert Smith, <strong><em>John Doe</em></strong>, Jane Derry, Harry Tom, Frodo Baggins
+                        <br><a href="https://doi.org/10.1109/TASC.2023.3340648">10.1109/TASC.2023.3340648</a>
+                    </div>
+                    <div>Jan. 2004</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="entry">
+                <div class="two-col">
+                    <div>
+                        <strong>Multi-User Drawing Tool</strong>
+                        <ul>
+                            <li>Developed an electronic classroom where multiple users can view and simultaneously draw on a "chalkboard" with each person's edits synchronized.</li>
+                            <li>Used C++ and MFC.</li>
+                        </ul>
+                    </div>
+                    <div>2004</div>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="two-col">
+                    <div>
+                        <strong>Synchronized Calendar</strong>
+                        <ul>
+                            <li>Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users.</li>
+                            <li>Used C#.NET, SQL, and XML.</li>
+                        </ul>
+                    </div>
+                    <div>2003 to 2004</div>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="two-col">
+                    <div>
+                        <strong>Operating System</strong>
+                        <ul>
+                            <li>Developed a UNIX-style OS with a scheduler, file system, text editor, and calculator.</li>
+                            <li>Used C.</li>
+                        </ul>
+                    </div>
+                    <div>2002</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Additional Experience And Awards</h2>
+            <div class="entry">
+                <p><strong>Instructor (2003 - 2005):</strong> Taught two full-credit Computer Science courses.</p>
+                <p><strong>Third Prize, Senior Design Projects:</strong> Awarded 3rd prize for a synchronized calendar project out of 100 projects.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="entry">
+                <ul>
+                    <li><strong>Languages:</strong> C, C++, C#.NET, Java, Python, MATLAB, SQL.</li>
+                    <li><strong>Software:</strong> Microsoft Visual Studio, Microsoft Office, Eclipse, Emacs.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
